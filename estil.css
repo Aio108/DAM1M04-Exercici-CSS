@@ -1,0 +1,19 @@
+.TipoA{
+    color:rgb(213, 107, 37);
+    Font-size: 25px
+}
+
+.titol{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 0, 38);
+}
+
+h1{
+    font-size: medium;
+    color:rgb(219, 127, 255);
+}
+
+h2{
+    font-size: small;
+    color: rgb(190, 124, 25);
+}
