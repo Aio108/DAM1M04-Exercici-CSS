@@ -26,3 +26,13 @@ h2{
 .blau{
     color:gold;
 }
+
+.contenidor p:first-child{
+    color:lime;
+    font-style: italic;
+}
+
+.contenidor p:last-child{
+    color:#00f3ff;
+    font-weight: bold;
+}
