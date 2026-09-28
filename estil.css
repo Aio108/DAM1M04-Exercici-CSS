@@ -17,3 +17,8 @@ h2{
     font-size: small;
     color: rgb(190, 124, 25);
 }
+
+.hover a:hover {
+  color: red;
+  text-decoration: underline;
+}
