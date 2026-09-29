@@ -36,3 +36,9 @@ h2{
     color:#00f3ff;
     font-weight: bold;
 }
+.titulo::before{
+    content: "👌"
+}
+.titulo::after{
+    content: "☺️"
+}
