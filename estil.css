@@ -1,6 +1,12 @@
+#principal{
+    background-color: cadetblue;
+}
+#menu{
+    margin-left: 40px;
+}
 .TipoA{
     color:rgb(213, 107, 37);
-    Font-size: 25px
+    Font-size: 25px;
 }
 
 .titol{
@@ -27,12 +33,12 @@ h2{
     color:gold;
 }
 
-.contenidor p:first-child{
+.contenidor ul li:first-child{
     color:lime;
     font-style: italic;
 }
 
-.contenidor p:last-child{
+.contenidor ul li:last-child{
     color:#00f3ff;
     font-weight: bold;
 }
