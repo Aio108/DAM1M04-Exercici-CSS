@@ -1,7 +1,11 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
 #principal{
     background-color: cadetblue;
 }
-#menu{
+#menu > li{
     margin-left: 40px;
 }
 .TipoA{
@@ -33,12 +37,12 @@ h2{
     color:gold;
 }
 
-.contenidor ul li:first-child{
+.contenidor p:first-child{
     color:lime;
     font-style: italic;
 }
 
-.contenidor ul li:last-child{
+.contenidor p:last-child{
     color:#00f3ff;
     font-weight: bold;
 }
