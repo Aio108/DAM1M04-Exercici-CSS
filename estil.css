@@ -3,7 +3,7 @@ body{
 }
 
 #principal{
-    background-color: cadetblue;
+    background: linear-gradient(100deg, rgb(3, 226, 255), rgb(0, 100, 200));
 }
 #menu > li{
     margin-left: 40px;
@@ -51,4 +51,16 @@ h2{
 }
 .titulo::after{
     content: "☺️"
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.25); 
+    backdrop-filter: blur(10px) saturate(140%);   
+    position: fixed;                              
+    top: 0;
+    width: 100dvw;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1000;                                
 }
