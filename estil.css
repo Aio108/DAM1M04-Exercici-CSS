@@ -6,7 +6,7 @@ body{
     background: linear-gradient(120deg, rgb(232, 238, 242), rgb(208, 218, 226));
 }
 #menu > li{
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .TipoA{
     color:rgb(8, 0, 14);
@@ -36,15 +36,6 @@ h2{
   text-decoration: underline;
 }
 
-.contenidor p:first-child{
-    color:lime;
-    font-style: italic;
-}
-
-.contenidor p:last-child{
-    color:#00f3ff;
-    font-weight: bold;
-}
 .titulo::before{
     content: "👌"
 }
@@ -70,10 +61,6 @@ nav {
     color:black;
 }
 
-.blau{
-    color:blue;
-    margin-top: 50px;
-}
 .perfil {
     display: flex;
     align-items: center;
@@ -90,3 +77,33 @@ nav {
 .texto .TipoA {
     margin: 10;
 }
+
+
+.seccion-doble {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 60px 100px;
+}
+
+.columna {
+    flex: 1;
+}
+
+.blau {
+    color: blue;
+    margin-top: 0;
+}
+
+.contenidor p:first-child {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    content: "💻 "
+}
+
+.contenidor p:last-child {
+    color: #000000;
+    font-style: italic;
+    content: " 🌎"
+}
+
